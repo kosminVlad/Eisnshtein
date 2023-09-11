@@ -112,7 +112,7 @@
     align-items: center;
   }
   
-  .katarina-word {
+  .einstein-word {
     text-align: center;
     position: relative;
   }
@@ -125,18 +125,18 @@
   }
   
   .ktogdekogda,
-  .katarina {
+  .einstein {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   
-  .katarina {
+  .einstein {
     position: relative;
   }
   
-  .katarinaIMG {
+  .einsteinIMG {
     display: block;
     margin: 0 auto;
   }
@@ -202,7 +202,7 @@
     background-color: rgb(2, 2, 26);
   }
   
-  .katarina-word {
+  .einstein-word {
     display: flex;
     color: rgba(255, 255, 255, 0.3);
     text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
@@ -213,15 +213,15 @@
     display: flex;
     position: relative;
     left: 100px;
-    color: #ebbc80;
+    color: #c4c4c4;
     justify-content: flex-start;
     font-size: 35px;
     font-style: oblique;
   }
   
   .opisanie {
-    color: #c8aa6e;
-    background-color: rgb(2, 2, 26);
+    color: #d3c7c7;
+    background-color: rgb(42, 42, 48);
     width: 400px;
     max-height: 125px;
     position: absolute;
@@ -229,7 +229,7 @@
     right: 290px;
     overflow: hidden;
   
-    border: 0.25px solid #ebbc80;
+    border: 2px solid #5e584d;
     padding: 12px;
     border-radius: 5px;
     transition-duration: 0.5s;
