@@ -324,7 +324,7 @@
       font-size: 34px;
     }
   
-    .katarinaIMG {
+    .einsteinIMG {
       position: fixed;
       width: 80%;
       top: 370px;
@@ -359,7 +359,7 @@
       z-index: 2000;
     }
   
-    .katarina-word {
+    .einstein-word {
       font-size: 14px;
       position: fixed;
       top: 250px;
