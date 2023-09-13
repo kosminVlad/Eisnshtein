@@ -155,7 +155,8 @@ footer {
   z-index: -1;
 }
 
-.start {
+.start,
+ .OPENS {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,6 +184,10 @@ footer {
 
 .na4ni {
   font-weight: bold;
+}
+
+.na4ni:hover {
+  color: #833030;
 }
 
 
@@ -293,6 +298,16 @@ footer {
   width: 1px;
   height: 1px;
 }
+
+.img-1 {
+  width: 400px; 
+  border: 3px solid #ebbc80;
+}
+
+.img-2 {
+  width: 350px; 
+  border: 3px solid #ebbc80;
+}
 /* ? АДАПТИВНАЯ ВЕРСТКА ДЛЯ ПЛАНШЕТОВ И НЕБОЛЬШИХ МОНИТОРОВ */
 
 @media only screen and (max-width: 1800px) {
@@ -348,7 +363,7 @@ footer {
 
   .lomonosovIMG {
     position: fixed;
-    width: 80%;
+    width: 100%;
     top: 370px;
     left: 150px;
     z-index: 1001;
@@ -382,23 +397,38 @@ footer {
   }
 
   .lomonosov-word {
-    font-size: 14px;
+    font-size: 18px;
     position: fixed;
-    top: 250px;
+    top: 120px;
   }
   .phrase {
     display: none;
   }
 
-  .footer {
+  footer {
     margin-top: 560px;
     z-index: 2001;
     background-color: #3a0f0f;
+    width: 100vw;
   }
 
-  .YT-VIDEOS {
+  .OPENS {
     display: block;
     color: #fff;
     width: 90vw;
+  }
+
+  .img-1 {
+    width: 100%;
+  }
+
+  .img-2 {
+    width: 100%;
+  }
+
+  .block-1,
+  .block-2 {
+    height: auto;
+    padding: 30px;
   }
 }
